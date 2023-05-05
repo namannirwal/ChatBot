@@ -1,0 +1,167 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello"
+            ],
+            "responses": [
+                "Hey :-) ",
+                "Hello, Thanks for visiting",
+                "Hi there, What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!"
+            ],
+            "responses": [
+                "My friend was explaining electricity to me, but I was like, Watt?",
+                "I failed math so many times at school, I cant even count.",
+                "A book fell on my head the other day. I only have my shelf to blame though."
+            ]
+        },
+        {
+            "tag": "login_credentials",
+            "patterns": [
+                "New User-id and password",
+                "create new account",
+                "how to create new account"
+            ],
+            "responses": [
+                "Click on Sign Up link on AICTE Web-portal"
+            ]
+        },
+        {
+            "tag": " forgotten password",
+            "patterns": [
+                "forgotten password",
+                "lost my password",
+                "don't remember my password",
+                "lost my user_credentials",
+                "lost my login id password",
+                "i have forget password",
+                "forget password"
+            ],
+            "responses": [
+                " Please refer User Manual for Forgotten Password available @ https://aicteindia.org/bureaus/approval/ap_2020-21"
+            ]
+        },
+        {
+            "tag": "Invalid Institute's Credentials",
+            "patterns": [
+                "When I try to login with Institute's Credentials, error message 'Invalid Username and Password' is displayed.",
+                "shows invalid institued credentials",
+                "can not log in through instituted credentials"
+            ],
+            "responses": [
+                "Recheck the login credentials. Confirm whether someone else has logged in with the same credentials ."
+            ]
+        },
+        {
+            "tag": "Apply Approval",
+            "patterns": [
+                "Approval Process",
+                "apply for Approval Process for our institute.",
+                "register for apply process"
+            ],
+            "responses": [
+                "Please login to AICTE Webportal using your institute login credentials then click on Approval Process icon."
+            ]
+        },
+        {
+            "tag": "generatereport",
+            "patterns": [
+                "I am not able to generate report?",
+                "how to generate report",
+                "how i created generate report",
+                "help to created generate"
+            ],
+            "responses": [
+                "Please refer User Manual for Report Generation to generate Reports.",
+                "go through User Manual for Report Generation "
+            ]
+        },
+        {
+            "tag": "delete old faculty details",
+            "patterns": [
+                "How to delete old faculty details?",
+                "remove faculty details"
+            ],
+            "responses": [
+                "Faculty record cannot be deleted. Faculty can be marked as Duplicate or Left the Institute under HOI & Faculty Details tab."
+            ]
+        },
+        {
+            "tag": "Aadhaar PAN",
+            "patterns": [
+                " Is Aadhaar/PAN details mandatory to update faculty details in AICTE Web Portal?",
+                " Is Aadhaar/PAN details required to update faculty details in AICTE Web Portal?"
+            ],
+            "responses": [
+                "Yes."
+            ]
+        },
+        {
+            "tag": "transfer faculty record",
+            "patterns": [
+                "How to transfer faculty record(individual) from one institute to another institute?",
+                "How to transfer faculty record to another institute?"
+            ],
+            "responses": [
+                "This facility is available under HOI & Faculty tab."
+            ]
+        },
+        {
+            "tag": "Internhips",
+            "patterns": [
+                "internships offered by aicte",
+                "intenship domains",
+                "internships"
+            ],
+            "responses": [
+                "Here are the internships offered by Aicte : https://internship.aicte-india.org/"
+            ]
+        },
+        {
+            "tag": "Colleges",
+            "patterns": [
+                "colleges approved by Aicte",
+                "approved by aicte",
+                "college approve"
+            ],
+            "responses": [
+                "List of Colleges approved by aicte : www.aicte-india.org/education/institutions/Universities"
+            ]
+        }
+        
+    ]
+}
