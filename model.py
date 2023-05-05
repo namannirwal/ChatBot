@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-# PyTorch is an open source machine learning framework.
+# PyTorch is an open source machine learning frame-work.
 # PyTorch provides the torch.nn module to help us in creating and training of the neural network.
 
 class NeuralNet(nn.Module):
